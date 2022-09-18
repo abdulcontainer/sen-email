@@ -169,7 +169,7 @@
               if (isset($_GET['success']) && ($_GET['success'] == "202") ) : ?>
                 <div class="success">Email Sent Successfully</div>
                 <?php elseif (!empty($_GET['success']) && $_GET['success'] !="202") : ?>
-                    <div class="erroe">Theres been an Error, please try again later.</div>
+                    <div class="error">Theres been an Error, please try again later.</div>
                 <?php endif; ?>
             </form>
           </div>
